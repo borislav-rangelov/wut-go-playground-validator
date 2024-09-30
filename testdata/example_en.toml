@@ -1,0 +1,12 @@
+language = "en"
+
+[validation]
+required = "Required"
+email = "'{{ .Value }}' is not a valid email"
+
+Email.required = "The email is required"
+
+[validation.TestUser]
+Password.required = "A strong password is required"
+Password.min = "Password must be between 8 and 32 characters"
+Password.max = '{{ get "validate.TestUser.Password.min" }}'
