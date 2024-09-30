@@ -1,4 +1,4 @@
-module github.com/borislav-rangelov/wut/go-pg/wuterr
+module github.com/borislav-rangelov/wut-val-go-pg
 
 go 1.22.7
 
